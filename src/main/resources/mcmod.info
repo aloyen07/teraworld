@@ -1,0 +1,16 @@
+[
+{
+  "modid": "teraworld",
+  "name": "Tera World",
+  "description": "A mod for specific world-gen.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Aloyenz"],
+  "credits": "Foxes rule the world!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

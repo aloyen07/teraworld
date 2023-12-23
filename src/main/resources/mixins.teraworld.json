@@ -1,0 +1,14 @@
+{
+  "minVersion": "0.7.11",
+  "compatibilityLevel": "JAVA_8",
+  "package": "ru.aloyenz.teraworld.mixin",
+  "refmap": "mixins.teraworld.refmap.json",
+  "mixins": [
+    "WorldGenMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
