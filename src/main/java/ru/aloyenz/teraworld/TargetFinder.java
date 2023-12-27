@@ -13,7 +13,7 @@ import java.io.InputStream;
 
 public class TargetFinder {
 
-    public static String[] findWorldGenClasses() throws IOException {
+    public static Set<ClassNode> findWorldGenClasses() throws IOException {
         Set<Class<? extends IChunkGenerator>> classes =
                 new Reflections("").getSubTypesOf(IChunkGenerator.class);
 
@@ -31,6 +31,6 @@ public class TargetFinder {
 
         }
 
-        return returns;
+        return classNodes;
     }
 }
